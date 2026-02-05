@@ -10,7 +10,14 @@ const { name, issueDate } = Astro.props;
 >
   <div class="flex flex-col gap-4 md:flex-row md:items-center">
     <p class="text-neutral-100">{name}</p>
-    <p>{issueDate.toLocaleDateString()}</p>
+    <p>
+      {
+        issueDate.toLocaleDateString("en-US", {
+          month: "long",
+          year: "numeric",
+        })
+      }
+    </p>
   </div>
 
   <!-- <svg

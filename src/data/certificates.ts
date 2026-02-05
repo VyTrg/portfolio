@@ -6,7 +6,7 @@ export type Certificate = {
 const certificates: Certificate[] = [
   {
     name: "Claude Code in Action",
-    issueDate: new Date("2026-02-05"),
+    issueDate: new Date("2026-02"),
   },
 ];
 
