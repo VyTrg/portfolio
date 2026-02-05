@@ -7,6 +7,12 @@ export type Project = {
 
 const projects: Project[] = [
   {
+    title: "kanban",
+    techs: ["Typescript", "PostgreSQL", "NextJS"],
+    link: "https://github.com/VyTrg/kanban",
+    isComingSoon: true,
+  },
+  {
     title: "ecommserse",
     techs: ["Typescript", "SQLServer", "Keycloak", "ExpressJS", "ReactJS"],
     link: "https://github.com/VyTrg/ecommerse",
